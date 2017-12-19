@@ -11,30 +11,6 @@ output:
 
 ```r
 library(dplyr)
-```
-
-```
-## Warning: package 'dplyr' was built under R version 3.4.3
-```
-
-```
-## 
-## Attaching package: 'dplyr'
-```
-
-```
-## The following objects are masked from 'package:stats':
-## 
-##     filter, lag
-```
-
-```
-## The following objects are masked from 'package:base':
-## 
-##     intersect, setdiff, setequal, union
-```
-
-```r
 library(ggplot2)
 myDataOrig<- read.csv("activity.csv")
 myDataOrig$date<- as.Date(myDataOrig$date)
